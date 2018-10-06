@@ -1,6 +1,6 @@
 ## 欢迎来到 YLab 视觉组
 
-你可以点击 [YLab-CV](https://nuosferatu.github.io/ylabcv.github.io/) 来访问 YLab 视觉组的主页。
+你可以点击 [YLab-CV](https://nuosferatu.github.io/ylabcv.github.io/index.html) 来访问 YLab 视觉组的主页。
 
 ### 这里有什么？
 
