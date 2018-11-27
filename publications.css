@@ -1,0 +1,117 @@
+.container {
+
+}
+
+nav img {
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+}
+
+.h1 {
+  font-size: 1.6rem;
+  padding-left: 2.2rem;
+  padding-top: 1.0rem;
+}
+
+.nav-item {
+  margin-left: 0.4rem;
+  margin-right: 1.2rem;
+}
+
+.nav-link:hover {
+  text-decoration-line: underline;
+}
+
+.nav-item.active {
+  font-weight: 700;
+}
+
+nav {
+  background-color: rgba(0,0,0,0)!important;
+}
+
+.full-width-img {
+  background-color: #eeeeee;
+  height: 126px;
+}
+
+.jumbotron.full-width-img img {
+  position: relative;
+  height: 127px;
+  display: inline-block;
+  top: -64px;
+}
+
+.jumbotron.line {
+  margin: 0;
+  padding: 0;
+  height: 0.2rem;
+  background-color: #93ba65;
+}
+
+.jumbotron.footer {
+  margin: 2rem 0 0 0;
+  padding: 0;
+  height: 4rem;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.card {
+  margin-left: 2rem;
+}
+
+.container.publication p.card-text {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.container.publication {
+  display: inline-block;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 68%;
+}
+
+.info {
+  display: inline-block;
+  width: 30%;
+  height: 10rem;
+  /*background-color: #eeeeee;*/
+}
+
+div.publications-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+div.info-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.container.publication h5.card-title {
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+h5.card-title a {
+  color: #000000;
+}
+
+h5.card-title a:hover {
+  color: #0056b3;
+}
+
+.card-body span a {
+  color: #555555;
+  text-decoration-line: none;
+}
+
+.card-body span a:hover {
+  color: #0056b3;
+  text-decoration-line: underline;
+}
