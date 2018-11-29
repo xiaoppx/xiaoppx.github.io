@@ -16,10 +16,12 @@ nav img {
 .nav-item {
   margin-left: 0.4rem;
   margin-right: 1.2rem;
+  font-size: 1.2rem;
 }
 
-.nav-link:hover {
+a.nav-link:hover {
   text-decoration-line: underline;
+  color: #73b998!important;
 }
 
 .nav-item.active {
@@ -46,7 +48,7 @@ nav {
   margin: 0;
   padding: 0;
   height: 0.2rem;
-  background-color: #93ba65;
+  background-color: #73b998;
 }
 
 .jumbotron.footer {
@@ -79,7 +81,7 @@ img.card-img-top {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 1px solid #93ba65;
+  border: 1px solid #73b998;
 }
 h5.card-title {
   margin-top: 0.2rem;
@@ -101,6 +103,7 @@ h5 span {
 }
 .card.teachers {
   margin-right: 0;
+  font-size: 0.9rem;
 }
 .row .teachers:nth-child(2) {
   width: 540px;

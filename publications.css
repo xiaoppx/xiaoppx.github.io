@@ -16,10 +16,12 @@ nav img {
 .nav-item {
   margin-left: 0.4rem;
   margin-right: 1.2rem;
+  font-size: 1.2rem;
 }
 
-.nav-link:hover {
+a.nav-link:hover {
   text-decoration-line: underline;
+  color: #73b998!important;
 }
 
 .nav-item.active {
@@ -46,7 +48,7 @@ nav {
   margin: 0;
   padding: 0;
   height: 0.2rem;
-  background-color: #93ba65;
+  background-color: #73b998;
 }
 
 .jumbotron.footer {
@@ -103,7 +105,7 @@ h5.card-title a {
 }
 
 h5.card-title a:hover {
-  color: #0056b3;
+  color: #73b998;
 }
 
 .card-body span a {
@@ -112,6 +114,6 @@ h5.card-title a:hover {
 }
 
 .card-body span a:hover {
-  color: #0056b3;
+  color: #73b998;
   text-decoration-line: underline;
 }
