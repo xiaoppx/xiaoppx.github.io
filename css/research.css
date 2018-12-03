@@ -1,0 +1,137 @@
+/* Navbar */
+nav img {
+  margin-left: 2.8rem;
+  margin-right: 1.8rem;
+}
+nav button {
+  margin-left: 0;
+  padding-left: 0;
+}
+.nav-item {
+  margin-left: 0.4rem;
+  margin-right: 1.2rem;
+  font-size: 1.2rem;
+}
+a.nav-link:hover {
+  text-decoration-line: underline;
+  color: #73b998!important;
+}
+.nav-item.active {
+  font-weight: 700;
+}
+nav {
+  background-color: rgba(0,0,0,0)!important;
+}
+
+/* Full-width image */
+.full-width-img {
+  background-color: #eeeeee;
+  height: 126px;
+}
+.jumbotron.full-width-img img {
+  position: relative;
+  height: 127px;
+  display: inline-block;
+  top: -64px;
+}
+.jumbotron.line {
+  margin: 0;
+  padding: 0;
+  height: 0.2rem;
+  background-color: #73b998;
+}
+.jumbotron.footer {
+  margin: 2rem 0 0 0;
+  padding: 0;
+  height: 4rem;
+  text-align: center;
+  line-height: 4rem;
+}
+
+/* Researchs List */
+img.paper-img {
+  margin-left: 4rem;
+  height: 180px;
+  width: 180px;
+  border-radius: 8px 0 0 8px;
+  border-top: 1px solid #d9dadb;
+  border-bottom: 1px solid #d9dadb;
+  border-left: 1px solid #d9dadb;
+}
+.card {
+  width: 680px;
+  height: 180px;
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+}
+.container.researchs .label {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+}
+
+/* Card title */
+h5.card-title {
+  margin: 0.2rem 0 0.2rem 0;
+}
+h5.card-title a {
+  color: #000000;
+}
+h5.card-title a:hover {
+  color: #73b998;
+}
+
+/* Card body */
+.card-body span a {
+  color: #555555;
+  text-decoration-line: none;
+}
+.card-body span a:hover {
+  color: #73b998;
+  text-decoration-line: underline;
+}
+p.card-text {
+  padding: 0;
+  margin: 0;
+}
+
+/* Phone */
+@media screen and (max-width: 990px) {
+  img.paper-img {
+    display: none;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+    border: 1px solid #d9dadb;
+    border-radius: 8px 8px 8px 8px;
+  }
+  .container.researchs .label {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+  }
+  .jumbotron.full-width-img img {
+    position: relative;
+    height: 127px;
+    display: inline-block;
+    top: -64px;
+    left: -60px;
+  }
+  nav img {
+    display: none;
+  }
+}
+@media screen and (max-width: 575px) {
+  .jumbotron.full-width-img {
+    display: none;
+  }
+  nav img {
+    display: none;
+  }
+  .container.researchs .label {
+    margin-top: 1rem;
+  }
+}

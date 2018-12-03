@@ -59,6 +59,13 @@ nav {
   line-height: 4rem;
 }
 
+div.paper-img img {
+  display: inline-block;
+  position: relative;
+  top: 140px;
+  height: 140px;
+}
+
 .card {
   margin-left: 2rem;
 }
