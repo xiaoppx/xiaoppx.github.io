@@ -5,87 +5,111 @@
   <title>Xi Zhao | Xi'an Jiaotong University</title>
   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/global.css">
 </head>
 <body>
   <!-- Navbar -->
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:rgba(0,0,0,0)!important">
-      <span class="h1 web-title"><i>Xi Zhao's Homepage</i></span>
-      <!-- <img src="images/cv1.png" width="34" height="34"> -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="home.html">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="research.html">RESEARCH</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">ABOUT</a>
-          </li>
-        </ul>
+  <div class="container navbar-container">
+    <nav class="navbar navbar-expand-sm">
+      <div class="row justify-content-between">
+        <span class="h1 web-title col-auto"><i>Xi Zhao's Homepage</i></span>
+        <div class="col-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research.html">RESEARCH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
   
   <!-- Full-width banner image -->
-  <div class="jumbotron jumbotron-fluid line">
-    <div class="container">
-    </div>
-  </div>
+  <div class="jumbotron jumbotron-fluid line"></div>
   <div class="jumbotron jumbotron-fluid full-width-img">
-    <div class="container">
+    <div class="full-img-container container">
       <img src="images/full_img.png">
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
+  <div class="container body">
+    <div class="row justify-content-between">
 
       <!-- Bio -->
-      <div class="card bio col-4">
+      <div class="card bio">
         <div class="card-body">
-          <div class="container center-part">
+          <div class="center-part">
             <img class="avatar" src="images/zx_home1.png">
-            <h5 class="card-title name">Xi Zhao (赵玺)</h5>
-            <p class="card-text department">
-              Department of Computer Science
-            </p>
-            <p class="card-text university">
-              Xi'an Jiaotong University
-            </p>
-            <p class="card-text email">
-              Email: <a href="mailto:xi.zhao@mail.xjtu.edu.cn">xi.zhao@mail.xjtu.edu.cn</a>
-            </p>
+            <h5 class="name">Xi Zhao (赵玺)</h5>
+            <p class="department">Department of Computer Science</p>
+            <p class="university">Xi'an Jiaotong University</p>
+            <img src="images/email.png"><br>
             <span>
-              [<a target="_blank" href="https://scholar.google.com.sg/citations?user=IZqErZQAAAAJ&hl=zh-CN">Google page</a>]
-              [<a target="_blank" href="research.html">Research page</a>]
-              <!-- [<a href="research.html">Publications</a>] -->
+              [<i> <a target="_blank" href="https://scholar.google.com.sg/citations?user=IZqErZQAAAAJ&hl=zh-CN">Google page</a> </i>]
             </span>
           </div>
         </div>
       </div>
 
       <!-- Info -->
-      <div class="container col-6">
-        <div class="card info">
-          <div class="card-body">
-            <p class="card-text">I am a lecturer in the <b><a target="_blank" href="http://www.cs.xjtu.edu.cn/">department of computer science</a></b>, <b><a target="_blank" href="http://www.xjtu.edu.cn/">Xi'an Jiaotong University</a></b>.</p>
-            <p class="card-text">I received my Ph.D from <b><a target="_blank" href="http://www.ipab.inf.ed.ac.uk/cgvu/">CGVU group</a></b>, School of Informatics, <b><a target="_blank" href="https://www.ed.ac.uk/">Edinburgh University</a></b>, under the supervision of <b><a target="_blank" href="http://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a></b>. My PhD was supported by the CSC–Edinburgh joint Scholarship. I received my M.Sc from School of Computer Science and Engineering, <b><a target="_blank" href="http://www.seu.edu.cn/">Southeast University</a></b>.  My research interests include shape analysis, geometry processing and interaction analysis.</p>
-          </div>
+      <div class="info-container">
+        <p>I am a lecturer in the <i><a target="_blank" href="http://www.cs.xjtu.edu.cn/">department of computer science</a></i>, <i><a target="_blank" href="http://www.xjtu.edu.cn/">Xi'an Jiaotong University</a></i>.</p>
+        <p>I received my Ph.D from <i><a target="_blank" href="http://www.ipab.inf.ed.ac.uk/cgvu/">CGVU group</a></i>, School of Informatics, <i><a target="_blank" href="https://www.ed.ac.uk/">Edinburgh University</a></i>, under the supervision of <i><a target="_blank" href="http://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a></i>. My PhD was supported by the CSC–Edinburgh joint Scholarship. I received my M.Sc from School of Computer Science and Engineering, <i><a target="_blank" href="http://www.seu.edu.cn/">Southeast University</a></i>.  My research interests include shape analysis, geometry processing and interaction analysis.</p>
+
+        <div class="para-label">
+          <b>Research interests:</b>
         </div>
+        
+        <p class="interests">
+          <span>Shape Analysis,</span>
+          <span>Geometry Processing,</span>
+          <span>Interaction Analysis</span>     
+        </p>
+        
+        <div class="para-label">
+          <b>Publications:</b>
+        </div>
+
+        <p class="papers">
+          <span class="cite">[1] Zhao, Xi, He Wang, and Taku Komura. "Indexing 3d scenes using the interaction bisector surface." <i>ACM Transactions on Graphics (TOG)</i> 33.3 (2014): 22.</span>
+          <span class="cite">[2] Zhao, Xi, et al. "Relationship templates for creating scene variations." <i>ACM Transactions on Graphics (TOG)</i> 35.6 (2016): 207.</span>
+          <span class="cite">[3] Zhao, Xi, Myung Geol Choi, and Taku Komura. "Character‐Object Interaction Retrieval using the Interaction Bisector Surface." <i>Computer Graphics Forum</i>. Vol. 36. No. 2. 2017.</span>
+          <span>
+            see more: [<i> <a target="_blank" href="research.html">Research page</a> </i>]
+          </span>
+        </p>
+
       </div>
-    
+
     </div>
   </div>
 
   <!-- Footer -->
-  <div class="jumbotron jumbotron-fluid footer fixed-bottom">
+  <div class="jumbotron jumbotron-fluid footer">
     <div class="container">
-      Power by Nuosferatu 2018
+      <div class="row justify-content-between">
+        <div class="col-auto"></div>
+        <div class="footer-address col-auto">
+          <div class="footer-info">
+            <i>School of Electronic and Information Engineering</i>
+          </div>
+          <div class="footer-info">
+            <i>No.28, Xianning West Road, Xi'an, Shaanxi, 710049, P.R. China</i>
+          </div>
+          <div class="footer-info">
+            Powered by Nuosferatu 2018
+          </div>
+        </div>
+        <div class="col-auto">
+          <img class="xjtu-logo" src="images/xjtu_logo_and_name.png" height="60">
+        </div>
+        <div class="col-auto"></div>
     </div>
   </div>
 

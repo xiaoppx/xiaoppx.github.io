@@ -1,0 +1,100 @@
+/* Global style */
+a {
+  color: #73b998;
+}
+a:hover {
+  color: #73b998;
+  text-decoration: underline;
+}
+.col-auto {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Navbar */
+.container.navbar-container {
+  padding: 4px 0;
+}
+nav.navbar {
+  padding: 0;
+  background-color: rgba(0,0,0,0)!important;
+}
+.web-title {
+  margin: 0 0 0 20px;
+  padding: 4px 0 0 0!important;
+  font-size: 26px;
+  font-weight: 700;
+  color: #444444;
+}
+ul.navbar-nav {
+  padding-right: 20px;
+}
+.nav-item {
+  margin: 0;
+  padding: 0;
+  font-size: 19px;
+  font-weight: 700;
+}
+a.nav-link {
+  color: #aaaaaa!important;
+  text-decoration: none;
+}
+a.nav-link:hover {
+  text-decoration-line: underline;
+}
+.nav-item.active a {
+  color: #73b998!important;
+}
+
+/* Full-width image */
+.full-width-img {
+  background-color: #eeeeee;
+  height: 126px;
+  margin-bottom: 30px;
+}
+.jumbotron.full-width-img img {
+  position: relative;
+  height: 127px;
+  display: inline-block;
+}
+.jumbotron.line {
+  margin: 0;
+  padding: 0;
+  height: 0.2rem;
+  background-color: #73b998;
+}
+.jumbotron.footer {
+  margin: 2rem 0 0 0;
+  padding: 0;
+  height: 100px;
+  text-align: center;
+  background-color: #eeeeee;
+  color: #000;
+  line-height: 4rem;
+  border-top: solid 1px #dddddd;
+  font-size: 14px;
+}
+.full-img-container {
+  position: relative;
+  top: -64px;
+  left: -24px;
+}
+.footer-address div {
+  margin: 0;
+  height: 15px;
+}
+.xjtu-logo {
+  margin: 20px 0 0 0;
+}
+
+/* Responsive */
+@media (min-width: 900px) {
+.container {
+    max-width: 900px;
+    padding: 0;
+}
