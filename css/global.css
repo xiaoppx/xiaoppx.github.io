@@ -3,8 +3,8 @@ a {
   color: #73b998;
 }
 a:hover {
-  color: #73b998;
-  text-decoration: underline;
+  color: #73b998!important;
+  text-decoration: underline!important;
 }
 .col-auto {
   margin: 0;
