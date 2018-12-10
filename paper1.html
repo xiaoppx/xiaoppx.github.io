@@ -5,7 +5,15 @@
   <title>Xi Zhao | Xi'an Jiaotong University</title>
   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/global.css">
-  <link rel="stylesheet" type="text/css" href="css/research.css">
+  <link rel="stylesheet" type="text/css" href="css/paper.css">
+  <style type="text/css">
+    @media (min-height: 1013px) {
+    .jumbotron.footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+  </style>
 </head>
 <body>
   <!-- Navbar -->
@@ -40,74 +48,54 @@
 
   <!-- Researchs List -->
   <div class="container">
-    <div class="row researchs-label">
-      Researches
+
+    <!-- Paper Title -->
+    <div class="paper-title h1">
+      Indexing 3D Scenes by Interaction Bisector Surface
     </div>
 
-    <!-- Research -->
-    <div class="row justify-content-between">
-      <img class="paper-img" src="images/paper1.png">
-      <div class="card bg-light">
-        <div class="card-body">
-          <h5 class="card-title"><a href="paper1.html">Indexing 3D Scenes Using the Interaction Bisector Surface</a></h5>
-          <p class="card-text">by Xi Zhao, He Wang and Taku Komura</p>
-          <p class="card-text">- <i>ACM Transactions on Graphics 2014 (presented at SIGGRAPH 2014)</i></p>
-          <span>
-            - [<a href="papers/indexing_scenes.pdf">paper (pdf, 11.8M)</a>] 
-            [<a href="slides/xi_siggraph2014.pptx">slides (pptx, 5.2M)</a>] 
-            [<a href="materials/supplement.pdf">supplement (pdf, 17M)</a>]
-          </span>
-        </div>
-      </div>
+    <!-- Source -->
+    <div class="source">
+      <i>ACM Transactions on Graphics, Volume 33 Issue 3, May 2014, Article No. 22 (presented at SIGGRAPH 2014)</i>
     </div>
 
-    <!-- Research -->
-    <div class="row">
-      <img class="paper-img" src="images/paper2.png">
-      <div class="card bg-light">
-        <div class="card-body">
-          <h5 class="card-title"><a href="paper2.html">Relationship Templates for Creating Scene Variations</a></h5>
-          <p class="card-text">by Xi Zhao, Ruizhen Hu, Paul Guerrero, Niloy J. Mitra and Taku Komura</p>
-          <p class="card-text">- <i>ACM Transactions on Graphics 35(6) 2016, (Proceedings of SIGGRAPH Asia 2016)</i></p>
-          <span>
-            - [<a href="papers/reltemplates_main.pdf">paper (pdf, 8M)</a>] 
-          </span>
-        </div>
-      </div>
+    <!-- Authors -->
+    <br>
+    <div class="authors row">
+      <div class="col"><b>Xi Zhao</b></div>
+      <div class="col"><b><a target="_blank" href="http://www.drhewang.com/">He Wang</a></b></div>
+      <div class="col"><b><a target="_blank" href="http://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a></b></div>
+    </div>
+    <div class="units row">
+      <div class="col">The University of Edinburgh</div>
+    </div>
+    <br>
+
+    <div class="center-part">
+      <img src="images/paper1_wide.png" width="900">
     </div>
 
-    <!-- Research -->
-    <div class="row">
-      <img class="paper-img" src="images/paper3.png">
-      <div class="card bg-light">
-        <div class="card-body">
-          <h5 class="card-title"><a href="">Character-Object Interaction Retrieval using the Interaction Bisector Surface</a></h5>
-          <p class="card-text">by Xi Zhao, Myung-Geol Choi and Taku Komura</p>
-          <p class="card-text">- <i>Computer Graphics Forum 36(2), 2017 (Proceedings of Eurographics 2017)</i></p>
-          <span>
-            - [<a href="papers/character_object.pdf">paper (pdf, 14M)</a>] 
-          </span>
-        </div>
-      </div>
+    <div class="para-label">
+      <b>Abstract:</b>
     </div>
 
-    <!-- Research -->
-    <div class="row">
-      <img class="paper-img" src="images/paper4.png">
-      <div class="card bg-light">
-        <div class="card-body">
-          <h5 class="card-title"><a href="">Building Hierarchical Structures for 3D Scenes Based on Normalized Cut</a></h5>
-          <p class="card-text">By Xi Zhao, Zhenqiang Su and Xinyu Yang</p>
-          <p class="card-text">- <i>Computer Animation and Virtual Worlds 2018 (accepted)</i></p>
-          <span>
-            - [paper] 
-          </span>
-        </div>
-      </div>
+    <p class="abstract">
+      The spatial relationship between different objects plays an important role in defining the context of scenes. Most previous 3D classification and retrieval methods take into account either the individual geometry of the objects or simple relationships between them such as the contacts or adjacencies. In this paper we propose a new method for the classification and retrieval of 3D objects based on the Interaction Bisector Surface (IBS), a subset of the Voronoi diagram defined between objects. The IBS is a sophisticated representation that describes topological relationships such as whether an object is wrapped in, linked to or tangled with others, as well as geometric relationships such as the distance between objects. We propose a hierarchical framework to index scenes by examining both the topological structure and the geometric attributes of the IBS. The topology-based indexing can compare spatial relations without being severely affected by local geometric details of the object. Geometric attributes can also be applied in comparing the precise way in which the objects are interacting with one another. Experimental results show that our method is effective at relationship classification and content-based relationship retrieval.
+    </p>
+
+    <div class="center-part">
+      <span>
+        [<a href="papers/indexing_scenes.pdf">paper (pdf, 11.8M)</a>] 
+        [<a href="slides/xi_siggraph2014.pptx">slides (pptx, 5.2M)</a>] 
+        [<a href="materials/supplement.pdf">supplement (pdf, 17M)</a>]
+      </span>
     </div>
+    
 
   </div>
 
+    <!-- Research -->
+    
   <!-- Footer -->
   <div class="jumbotron jumbotron-fluid footer">
     <div class="container">

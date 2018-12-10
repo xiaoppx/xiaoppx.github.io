@@ -12,7 +12,7 @@
   padding: 0;
   width: 260px;
   border: none;
-  background-color: rgb(0,0,0,0)!important;
+  background-color: #f6f6f6;
 }
 .card.bio .card-body {
   padding: 0;
@@ -46,8 +46,11 @@
   display: block;
   padding: 6px;
   width: 550px;
-  background-color: rgb(0,0,0,0);
+  background-color: #f6f6f6;
   border-radius: 4px;
+}
+.info-container p:first-child {
+  margin-bottom: 0;
 }
 .interests span {
   display: inline-block;

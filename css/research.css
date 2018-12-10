@@ -47,3 +47,9 @@ img.paper-img {
 }
 
 /* Responsive */
+@media (min-height: 1186px) {
+.jumbotron.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
