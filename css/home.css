@@ -75,7 +75,7 @@
 }
 
 /* Responsive */
-@media (min-height: 938px) {
+@media (min-height: 880px) {
 .jumbotron.footer {
     position: fixed;
     bottom: 0;

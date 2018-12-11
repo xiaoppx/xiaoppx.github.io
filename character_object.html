@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Xi Zhao | Xi'an Jiaotong University</title>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/global.css">
+  <link rel="stylesheet" type="text/css" href="css/paper.css">
+  <style type="text/css">
+    @media (min-height: 1063px) {
+    .jumbotron.footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="container navbar-container">
+    <nav class="navbar navbar-expand-sm">
+      <div class="row justify-content-between">
+        <span class="h1 web-title col-auto"><i>Xi Zhao's Homepage</i></span>
+        <div class="col-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">HOME</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="research.html">RESEARCH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <!-- Full-width banner image -->
+  <div class="jumbotron jumbotron-fluid line"></div>
+  <div class="jumbotron jumbotron-fluid full-width-img">
+    <div class="full-img-container container">
+      <img src="images/common/full_img.png">
+    </div>
+  </div>
+
+  <!-- Researchs List -->
+  <div class="container">
+
+    <!-- Paper Title -->
+    <div class="paper-title h1">
+      Character-Object Interaction Retrieval using the Interaction Bisector Surface
+    </div>
+
+    <!-- Source -->
+    <div class="source">
+      <i>Computer Graphics Forum 36(2), 2017 (Proceedings of Eurographics 2017)</i>
+    </div>
+
+    <!-- Authors -->
+    <br>
+    <div class="authors row">
+      <div class="col"><b>Xi Zhao</b></div>
+      <div class="col"><b>M.G. Choi</b></div>
+      <div class="col"><b><a target="_blank" href="http://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a></b></div>
+    </div>
+    <div class="units row">
+      <div class="col">Xi’an Jiaotong University</div>
+      <div class="col">The Catholic University of Korea</div>
+      <div class="col">University of Edinburgh</div>
+    </div>
+    <br>
+
+    <div class="center-part">
+      <img src="researchs/character_object/img2.png" height="220">
+    </div>
+    <br>
+
+    <div class="para-label">
+      <b>Abstract:</b>
+    </div>
+
+    <p class="abstract">
+      In this paper, we propose a novel approach for the classification and retrieval of interactions between human characters and objects. We propose to use the interaction bisector surface (IBS) between the body and the object as a feature of the interaction. We define a multi-resolution representation of the body structure, and compute a correspondence matrix hierarchy that describes which parts of the character’s skeleton take part in the composition of the IBS and how much they contribute to the interaction. Key-frames of the interactions are extracted based on the evolution of the IBS and used to align the query interaction with the interaction in the database. Through the experimental results, we show that our approach outperforms existing techniques in motion classification and retrieval, which implies that the contextual information plays a significant role for scene and interaction description. Our method also shows better performance than other techniques that use features based on the spatial relations between the body parts, or the body parts and the object. Our method can be applied for character motion synthesis and robot motion planning.
+    </p>
+
+    <div class="center-part">
+      <span>
+        [ <a href="researchs/character_object/character_object.pdf">paper (pdf, 14M)</a> ] 
+        [ <a href="researchs/character_object/character_object_compressed.pdf">paper(compressed) (pdf, 4.3M)</a> ] 
+        [ <a href="researchs/character_object/InteractionRetrieval_v4.mp4">video (mp4, 21M)</a> ]  
+      </span>
+    </div>
+    
+
+  </div>
+
+    <!-- Research -->
+    
+  <!-- Footer -->
+  <div class="jumbotron jumbotron-fluid footer">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-auto"></div>
+        <div class="footer-address col-auto">
+          <div class="footer-info">
+            <i>School of Electronic and Information Engineering</i>
+          </div>
+          <div class="footer-info">
+            <i>No.28, Xianning West Road, Xi'an, Shaanxi, 710049, P.R. China</i>
+          </div>
+          <div class="footer-info">
+            Powered by Nuosferatu 2018
+          </div>
+        </div>
+        <div class="col-auto">
+          <img class="xjtu-logo" src="images/common/xjtu_logo_and_name.png" height="60">
+        </div>
+        <div class="col-auto"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
