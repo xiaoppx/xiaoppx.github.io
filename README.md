@@ -10,4 +10,6 @@ Click here [ CLICK ME ](https://nuosferatu.github.io/ylabcv/home.html) to access
 
 ### Contact Me
 
-If you wanna report a bug, or anything wrong with the content of the site, please contact me, by email: nuosferatu@163.com.
+If you wanna report a bug, or anything wrong with the content of the site
+please contact me.
+email: nuosferatu@163.com.
