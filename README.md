@@ -1,14 +1,11 @@
-## 欢迎来到 YLab 视觉组
+## Xi Zhao's Home Page
 
-你可以点击 [YLab-CV](https://nuosferatu.github.io/ylabcv.github.io/index.html) 来访问 YLab 视觉组的主页。
+Click here [ CLICK ME! ](https://nuosferatu.github.io/ylabcv/home.html) to access Xi Zhao's Home Page.
 
-### 这里有什么？
+### What is Here?
 
-- 这是 YLab 视觉组的主页；
-- 这里有实验室的老师、成员的联系方式，招生及授课信息，以及我们的活动留影等；
-- 还有相关论文和项目的文档、演示文稿等；
-- 当然还有即兴写的Blog...
+- Xi Zhao's introduction, papers, codes, and something else (maybe added later...)
 
-### 联系我们
+### Contact Me
 
-邮箱：nuosferatu@163.com
+If you wanna report a bug, or anything wrong with the content of the site, please contact me, by email: nuosferatu@163.com.
