@@ -5,8 +5,8 @@ Click here [ CLICK ME ](https://nuosferatu.github.io/ylabcv/home.html) to access
 ### What is Here?
 
 - Xi Zhao's introduction
-- Her papers, codes
-- and something else (maybe added later...)
+- Her papers, codes, support materials...
+- and something else (maybe added later)
 
 ### Contact Me
 
