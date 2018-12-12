@@ -1,10 +1,12 @@
 ## Xi Zhao's Home Page
 
-Click here [ CLICK ME! ](https://nuosferatu.github.io/ylabcv/home.html) to access Xi Zhao's Home Page.
+Click here [ CLICK ME ](https://nuosferatu.github.io/ylabcv/home.html) to access Xi Zhao's Home Page.
 
 ### What is Here?
 
-- Xi Zhao's introduction, papers, codes, and something else (maybe added later...)
+- Xi Zhao's introduction
+- Her papers, codes
+- and something else (maybe added later...)
 
 ### Contact Me
 
