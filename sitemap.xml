@@ -1,19 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset>
-    <url>
-        <loc>http://xiaoppx.github.io/home.html</loc>
-        <lastmod>2018-12-18</lastmod>
-    </url>
-    <url>
-        <loc>http://xiaoppx.github.io/character_object.html</loc>
-        <lastmod>2018-12-18</lastmod>
-    </url>
-    <url>
-        <loc>http://xiaoppx.github.io/indexing_scenes.html</loc>
-        <lastmod>2018-12-18</lastmod>
-    </url>
-    <url>
-        <loc>http://xiaoppx.github.io/relationship_templates.html</loc>
-        <lastmod>2018-12-18</lastmod>
-    </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://xiaoppx.github.io/</loc>
+  <lastmod>2018-12-18T08:49:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/home.html</loc>
+  <lastmod>2018-12-18T08:49:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/research.html</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/about.html</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/indexing_scenes.html</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/researchs/indexing_scenes/indexing_scenes.pdf</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/researchs/indexing_scenes/indexing_scenes_compressed.pdf</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/researchs/indexing_scenes/xi_siggraph2014.pptx</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/researchs/indexing_scenes/supplement.pdf</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/relationship_templates.html</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/researchs/relationship_templates/relationship_templates.pdf</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/researchs/relationship_templates/relationship_templates_compressed.pdf</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/researchs/relationship_templates/2016-siggraph-asia-slide-updated12.5-small.pdf</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/researchs/relationship_templates/c116-f116_1-a223-supplimentary-mat1-v3.pdf</loc>
+  <lastmod>2018-12-18T08:56:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/character_object.html</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/researchs/character_object/character_object.pdf</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://xiaoppx.github.io/researchs/character_object/character_object_compressed.pdf</loc>
+  <lastmod>2018-12-18T08:49:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
