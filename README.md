@@ -10,8 +10,5 @@ Click here [ CLICK ME ](https://xiaoppx.github.io/home.html) to access Xi Zhao's
 
 ### Contact Me
 
-If you wanna report a bug, or anything wrong with the content of the site
-
-please contact me.
-
-email: nuosferatu@163.com.
+If you wanna report a bug, or anything wrong with the content of the site, please contact me.
+Email: nuosferatu@163.com.
