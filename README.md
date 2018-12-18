@@ -1,11 +1,6 @@
----
-redirect_from: "xiaoppx.github.io/README.md"
-redirect_to: "xiaoppx.github.io/home.html"
----
-
 ## Xi Zhao's Home Page
 
-Click here [ CLICK ME ](https://nuosferatu.github.io/ylabcv/home.html) to access Xi Zhao's Home Page.
+Click here [ CLICK ME ](https://xiaoppx.github.io/home.html) to access Xi Zhao's Home Page.
 
 ### What is Here?
 
