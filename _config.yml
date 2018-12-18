@@ -1,4 +1,4 @@
 plugins:
-    - jekyll-redirect-from
+  - jekyll-redirect-from
 
 theme: jekyll-theme-minimal
