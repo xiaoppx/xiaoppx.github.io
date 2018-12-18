@@ -1,7 +1,3 @@
----
-redirect_from: "/foo/"
----
-
 ## Xi Zhao's Home Page
 
 Click here [ CLICK ME ](https://nuosferatu.github.io/ylabcv/home.html) to access Xi Zhao's Home Page.
