@@ -1,1 +1,128 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Xi Zhao | Xi'an Jiaotong University</title>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/global.css">
+  <link rel="stylesheet" type="text/css" href="css/paper.css">
+  <style type="text/css">
+    @media (min-height: 1075px) {
+    .jumbotron.footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="container navbar-container">
+    <nav class="navbar navbar-expand-sm">
+      <div class="row justify-content-between">
+        <span class="h1 web-title col-auto"><i>Xi Zhao's Homepage</i></span>
+        <div class="col-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">HOME</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="research.html">RESEARCH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <!-- Full-width banner image -->
+  <div class="jumbotron jumbotron-fluid line"></div>
+  <div class="jumbotron jumbotron-fluid full-width-img">
+    <div class="full-img-container container">
+      <img src="images/common/full_img.png">
+    </div>
+  </div>
+  
+  <!-- Researchs List -->
+  <div class="container">
+    
+    <!-- Paper Title -->
+    <div class="paper-title h1">
+      Building hierarchical structures for 3D scenes with repeated elements
+    </div>
+    
+    <!-- Source -->
+    <div class="source">
+      <i>The Visual Computer 2019</i>
+    </div>
+    
+    <!-- Authors -->
+    <br>
+    <div class="authors row">
+      <div class="col"><b>Xi Zhao</b><sup>1</sup></div>
+      <div class="col"><b>Zhenqiang Su</b><sup>2</sup></div>
+      <div class="col"><b><a target="_blank" href="http://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a></b><sup>3</sup></div>
+      <div class="col"><b><a target="_blank" href="http://gr.xjtu.edu.cn/web/xyyang">Xinyu Yang</a></b><sup>1</sup></div>
+    </div>
+    
+    <div class="units row">
+      <div class="col">1 School of Electronic and Information Engineering, Xi’an Jiaotong University</div>
+    </div>
+    <div class="units row">
+      <div class="col">2 School of Software Engineering, Xi’an Jiaotong University</div>
+    </div>
+    <div class="units row">
+      <div class="col">3 School of Informatics, Edinburgh University</div>
+    </div>
+    
+    <div class="center-part">
+      <img src="researchs/hierarchical_structures/img2.png" alt="Building hierarchical structures for 3D scenes with repeated elements" width="900">
+    </div>
+    <br>
+    <div class="para-label">
+      <b>Abstract:</b>
+    </div>
+    <p class="abstract">
+      We propose a novel hierarchy construction algorithm for 3D scenes with repeated elements, such as classrooms with multiple desk–chair pairs. Most existing algorithms focus on scenes such as bedrooms or living rooms, which rarely contain repeated patterns. Consequently, such methods may not recognize repeated patterns, which are vital for understanding the structure and context of scenes such as classrooms. Therefore, we propose a new global optimization algorithm for recognizing repeated patterns and building hierarchical structures based on repeated patterns. First, we find a repeated template by calculating the coverage ratios and frequencies of many substructures in a scene. Once the repeated template has been determined, a minimum cost maximum flow problem can be solved to find all instances (repetitions) of it in the scene and then group objects accordingly. Second, we group objects in the region outside the repeated elements according to their adjacency. Finally, based on these two sets of results, we build the hierarchy of the entire scene. We test this hierarchy construction algorithm on the Princeton and SceneNN databases and show that our algorithm can correctly find repeated patterns and construct a hierarchy that is more similar to the ground truth than the results of previous methods.
+    </p>
+    <div class="center-part">
+      <span>
+        [ <a href="researchs/hierarchical_structures_repeated_elements/hierarchical_structures_repeated_elements.pdf">paper (pdf, 3.4M)</a> ] 
+      </span>
+    </div>
+    
+  </div>
+    <!-- Research -->
+    
+  <!-- Footer -->
+  <div class="jumbotron jumbotron-fluid footer">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-auto"></div>
+        <div class="footer-address col-auto">
+          <div class="footer-info">
+            <i>School of Electronic and Information Engineering</i>
+          </div>
+          <div class="footer-info">
+            <i>No.28, Xianning West Road, Xi'an, Shaanxi, 710049, P.R. China</i>
+          </div>
+          <div class="footer-info">
+            Powered by Nuosferatu 2018
+          </div>
+        </div>
+        <div class="col-auto">
+          <a target="_blank" href="http://www.xjtu.edu.cn/">
+            <img class="xjtu-logo" src="images/common/xjtu_logo_and_name.png" height="60">
+          </a>
+        </div>
+        <div class="col-auto"></div>
+    </div>
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
