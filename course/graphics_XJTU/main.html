@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>XJTU 计算机图形学</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="../css/portfolio-item.css" rel="stylesheet"> -->
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <link rel="icon" href="icon.jpeg">
+
+  </head>
+
+  <body style="position: static;">
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <h1 class="my-3">计算机图形学</h1>
+      <h4 class="my-3">COMP551805(2021 Fall)</h4>
+      <h5 class="my-3">授课教授: 赵玺</h5>
+
+<!--      <hr class="style-two">
+     <h5 class="my-3">Important Announcement and Disclaimer</h5>
+
+      <p>This course is not supported by any funding agencies in the United States and China. By making this course free to the public, the instructor is not getting paid by either the US or China. Using Chinese for instruction is partly for the convenience of the instructor, and partly aimed at widening the diversity of audiences, including Chinese-speaking Americans. An English version of this course is being worked out actively by the instructor.</p>
+-->
+      <hr class="style-two">
+      <h5 class="my-3">课程介绍</h5>
+      <img class="img-responsive" style="width:100%;height:100%" src="images.png">
+      <div class="row justify-content-md-center">
+              <div class="col-md-3 mb-3">
+                <center><small>光栅化成像 [实时软阴影 (NVIDIA)]</small></center>
+              </div>
+              <div class="col-md-3 mb-3">
+                <center><small>几何表示 [Adobe Photoshop 中的钢笔工具]</small></center>
+              </div>
+              <div class="col-md-3 mb-3">
+                <center><small>光线传播理论 [光子映射 (Jensen)]</small></center>
+              </div>
+              <div class="col-md-3 mb-3">
+                <center><small>动画与模拟 [流体模拟 (Muller)]</small></center>
+              </div>
+            </div>
+
+      (课程介绍部分)
+
+      <p>具体课程内容请参见课程大纲。</p>
+
+<!--
+      <hr class="style-two">
+      <h5 class="my-3">直播方式</h5>
+      <p>
+        GAMES 虎牙直播间 <a href="http://webinar.games-cn.org/" target="_blank">webinar.games-cn.org</a><br>
+        北京时间周二、周五上午 10 点到 11 点，2020 年 2 月 11 日开始
+      </p>
+-->
+      <hr class="style-two">
+      <h5 class="my-3">课程需求</h5>
+        【必须】：微积分、线性代数、C/C++程序设计、算法、数据结构 <br>
+        【非必须】：数值分析、大学物理
+      <p>
+
+      </p><hr class="style-two">
+      <h5 class="my-3">课时安排</h5>
+      【课时】：共44学时，每小节课五十分钟，每周四节 (1-8周)<br>
+      【地点】：兴庆校区，中3-3303<br>
+      【考试】：暂未安排<br>
+      【作业】：共 3 次作业，全部是编程任务，会提供代码框架。作业需要独立自主完成且由助教验收，作业详情见下<br>
+
+
+
+      <hr class="style-two">
+      <h5 class="my-3">教授及助教信息</h5>
+      </a><p><a>教授：</a><a href="https://xiaoppx.github.io/home.html" target="_blank">赵玺</a><br>
+         邮箱：<a href="mailto:xi.zhao@xjtu.edu.cn" target="_top">xi.zhao@xjtu.edu.cn</a>
+      </p>
+
+      <p>助教：张博闻<br>
+        邮箱：<a href="待添加" target="_top">待添加</a>
+      </p>
+      
+      <p>助教：<a href="https://github.com/siyuanluo" target="_blank">罗思源</a><br>
+        邮箱：<a href="mailto:siyuanluo2002@gmail.com" target="_top">siyuanluo2002@gmail.com</a>
+      </p>
+      
+      <p>
+      添加其他助教
+      </p>
+
+      <!-- <p>更多助教将根据课程需求持续招募</p> -->
+      <p><a href="待添加" target="_blank">课程讨论区 BBS</a><a></a></p><a>
+
+
+      <hr class="style-two">
+      <h5 class="my-3">参考教材</h5>
+      <p>【授课教材】：<a href = "http://www.tup.tsinghua.edu.cn/booksCenter/book_08314601.html"target="_blank">《现代计算机图形学基础》</a>黄华、张磊编著，清华大学出版社
+      
+      </p>
+      <p>【非必须但推荐】：<a href ="http://www.cs.cornell.edu/~srm/fcg3/"target="_blank">"Steve Marschner and Peter Shirley, Fundamentals of Computer Graphics"</a>第三版或更新版本。更推荐看英文原版，也很好理解。
+      </p>
+
+      <hr class="style-two">
+      <h5 class="my-3">课程安排</h5>
+      </a><p><a>以下是课程大纲 & 课程安排 &  课程资料，随着课程进行可能会有所变动。相关的阅读材料会在每节课前给出。每节课后，课件将以 PDF 形式放出。</a></p>
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">日期</th>
+            <th scope="col">主题</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">第 1 周</td>
+            <td>Sep 13</td>
+            <td><b>计算机图形学概述 -- 仅作为示范</b>
+             [<a href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_01.pdf" target="_blank">课件</a>]
+             <!-- [<a href="https://v.qq.com/x/page/c3064z56k47.html" target="_blank">录像</a>] -->
+            </td>
+          </tr>
+          <tr>
+            <td>Sep 16</td>
+            <td><b>待添加</b>
+             [<a href="待添加" target="_blank">课件</a>]
+             <!-- [<a href="https://v.qq.com/x/page/j3066tzzlt7.html" target="_blank">录像</a>] -->
+             <br>阅读材料：待添加
+            </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">第 2 周</td>
+            <td>Sep 20</td>
+            <td><b>待添加</b> [<a href="待添加" target="_blank">课件</a>]
+              <!-- [<a href="https://v.qq.com/x/page/q3067pk3ldc.html" target="_blank">录像</a>] -->
+              <br>阅读材料：待添加
+              <!-- <br>[<a href="resources/CS180_Winter2020_Assignment_01.pdf" target="_blank">Assignment 1</a>: Transformations] -->
+              </td>
+          </tr>
+          <tr>
+            <td>Sep 23</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              [<a href="https://gitee.com/luo_siyuan/xjtu_computer-graphics_course_lab/tree/master/Lab01" target="_blank">Coding Homework1(Due:Sep 30)</a>]
+              [<a href="https://gitee.com/luo_siyuan/xjtu_computer-graphics_course_lab/blob/master/Lab01%20%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F.pdf" target="_blank">Lab参考资料</a>]
+              <!-- [<a href="https://v.qq.com/x/page/e3069g5vq8p.html" target="_blank">录像</a>] -->
+              <br>阅读材料：待添加
+            </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">第 3 周</td>
+            <td>Sep 27</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              <br>阅读材料：待添加
+<!--               <br>Chapter 7 (Viewing), Section 7.1.1; Chapter 8 (The Graphics Pipeline), Section 8.1 -->
+              <!-- <br>Reading: Chapter 7 (Viewing) -->
+              <!-- <br>[<a href="resources/CS180_Winter2020_Assignment_02.pdf" target="_blank">Assignment 2</a>: Rotation and Projection] -->
+            </td>
+          </tr>
+          <tr>
+            <td>Sep 30</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              <br>阅读材料：待添加
+              <!-- <br>第 8 章（The Graphics Pipeline）, 第 8.2.3 节 -->
+              <!-- [<a href="resources/CS180_Winter2020_Lecture_06.pdf" target="_blank">PDF</a>] -->
+<!-- <font color="red">[Project 0 due]</font> -->
+              <!-- <br>Reading: Chapter 8 (The Graphics Pipeline), Sections 8.2 and 8.3;<br>Chapter 9 (Signal Processing) -->
+             </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">第 4 周</td>
+            <td>Oct 4(国庆假期)</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              <br>阅读材料：待添加
+              <!-- <br>[<a href="resources/CS180_Winter2020_Assignment_03.pdf" target="_blank">Assignment 3</a>: Triangles and Z-buffering] -->
+
+              <!-- [<a href="resources/CS291A_Lecture_05.pdf" target="_blank">PDF</a>]<br> -->
+            <!-- Reading: Precomputation-Based Rendering by Prof. Ravi Ramamoorthi [<a href="https://cseweb.ucsd.edu/~ravir/prtsurvey.pdf" target="_blank">PDF</a>] -->
+            </td>
+          </tr>
+          <tr>
+            <td>Oct 7(国庆假期)</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              <br>阅读材料：待添加
+            </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">第 5 周</td>
+            <td>Oct 11</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              <br>阅读材料：待添加
+                <!-- <br>Reading: Chapter 11 (Texture Mapping), Sections 11.1 and 11.2 -->
+                <!-- <br>[<a href="resources/CS_180_Assignment_4.pdf" target="_blank">Assignment 4</a>: Pipeline and Shading]</td> -->
+          </td></tr>
+          <tr>
+            <td>Oct 14</td>
+            <td><b>待添加</b>
+                <!-- <br>Reading: Chapter 11 (Texture Mapping), Sections 11.3 and 11.4 -->
+              [<a href="待添加" target="_blank">课件</a>]
+              <br>阅读材料：待添加
+            </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">第 6 周</td>
+            <td>Oct 18</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              <br>阅读材料：待添加
+              <!-- <br>Reading: Chapter 15 (Curves), Sections 15.1, 15.2, 15.3 and 15.6 -->
+              <!-- <br>[<a href="resources/CS_180_Assignment_5.pdf" target="_blank">Assignment 5</a>: Bezier Curves]</td> -->
+            </td></tr>
+          <tr>
+            <td>Oct 21</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              [<a href="https://gitee.com/luo_siyuan/xjtu_computer-graphics_course_lab/tree/master/Lab02" target="_blank">Coding Homework2(Due:Nov 10)</a>]
+              [<a href="https://gitee.com/luo_siyuan/xjtu_computer-graphics_course_lab/blob/master/Lab02%20%E6%B8%B2%E6%9F%93%E5%9F%BA%E7%A1%80.pdf" target="_blank">Lab参考资料</a>]              <br>阅读材料：待添加
+            </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">第 7 周</td>
+            <td>Oct 25</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              <br>阅读材料：待添加
+              <!-- <br>[<a href="resources/CS_180_Assignment_6.pdf" target="_blank">Assignment 6</a>: Ray-Triangle Intersection] -->
+            </td>
+          </tr>
+          <tr>
+            <td>Oct 28</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              <br>阅读材料：待添加
+            </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">第 8 周</td>
+            <td>Nov 1</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              <br>阅读材料：待添加
+              <!-- [<a href="resources/CS180_Lecture_14.pdf" target="_blank">PDF</a>] -->
+              <!-- <br>Reading: Chapter 18 (Light), Section 18.2, Chapter 24 (Reflection Models), Sections 24.1 to 24.3 -->
+              <!-- <br>[<a href="resources/CS_180_Assignment_7.pdf" target="_blank">Assignment 7</a>: Bounding Volume Hierarchy] -->
+            </td>
+          </tr>
+          <tr>
+            <td>Nov 4</td>
+            <td><b>待添加</b>
+              [<a href="待添加" target="_blank">课件</a>]
+              <br>阅读材料：待添加
+
+            <!-- <td><b>Guest Lecture (Walt Disney Animation Studios)</b>  -->
+              <!-- [<a href="resources/CS180_Lecture_15.pdf" target="_blank">PDF</a>] -->
+              <!-- <br>Reading: Chapter 19 (Color), Sections 19.1, 19.3 and 19.4, Chapter 20 (Visual Perception), Sections 20.1 and 20.2 -->
+            </td>
+          </tr>
+
+
+          
+
+          
+
+          
+<!--           <tr>
+            <td rowspan="2">11</td>
+            <td>Mar 17</td>
+            <td><b>Final Exam</b></td>
+          </tr>
+ -->        </tbody>
+      </table>
+
+<!-- 
+      <hr class="style-two">
+      <h5 class="my-3">Programming and Collaboration Policy</h5>
+      <p>
+        Programming projects are to be implemented individually from scratch. That is, you should not derive solutions from existing sources or previous instances of this course (including previous postings from the online course, at other universities etc.). Discussion of programming projects is allowed and encouraged, but copying of solutions or code from other students, or from students who previously took this course in any university or online setting is not allowed. If you do obtain substantial help from the instructor, teaching assistant/tutor or another student, you must document this in your program. Furthermore, you should in general not copy code from other sources. If in doubt, please ask. Further specifics are given in the assignment specifications.
+      </p><p>
+        To repeat, you may not copy solutions or code from other students, or students who previously took this or a similar class at a university or online. You must clearly declare any code and ideas that came directly from others, as opposed to what you created yourself. If you fail to do so, we can only assume you are presenting your own work. Of course, presenting other people's work as your own is academic dishonesty. Students who engage in dishonest activities, with an intent to alter their grade, will receive an F for the course and be reported to the University for further action. Note that you will also be held liable for publicly posting your code on Github or other public websites, if another student subsequently copies from it.
+      </p>
+
+      <hr class="style-two">
+      <h5 class="my-3">Accessibility</h5>
+      <p>
+        Students with documented disability are welcome to contact the <a href="http://dsp.sa.ucsb.edu/" target="_blank">DSP office</a> to arrange the necessary academic accommodations. We will also spare no efforts to help.
+      </p>
+ -->
+
+
+<!-- 
+
+Please read this section carefully.
+
+The university, the department, and this instructor all take the issue of academic integrity very seriously. A university requires an atmosphere of mutual trust and respect. While collaboration is an integral part of many scholarly activities, it is not always appropriate in a course, and it is never appropriate unless due credit is given to all participants in the collaboration. This goes for both ideas and programming or other work.
+
+Here are some examples:
+
+Allowed: Discussion of lecture and textbook materials
+Allowed: Discussion of how to approach assignments, what techniques to consider, what textbook or lecture material is relevant
+Not allowed: Sharing ideas in the form of code, pseudocode, or solutions
+Not allowed: Turning in someone else's work as your own, even with that person's permission.
+Not allowed: Allowing someone else to turn in your work as his or her own.
+Not allowed: Turning in work without proper acknowledgment of the sources of the content (including ideas) contained within the work.
+For some views on academic integrity at UCSB see the Academic Integrity page of the Office of Judicial Affairs.
+
+Summary: Academic integrity is absolutely required - dishonesty (cheating, plagiarism, etc.) benefits no one and hurts everyone. If you are not sure whether or not something is appropriate, ask the instructor or the TA. -->
+
+<!-- 
+Students with Disabilities
+
+If you are a student with a (temporary or permanent) disability and would like to discuss special academic accommodations, please first contact the Disabled Students Program (DSP) at UCSB. DSP will arrange for special services when appropriate (e.g., facilitation of access, note takers, readers, sign language interpreters). Please note that it is the student's responsibility to communicate his or her special needs to the instructor, along with a letter of verification from DSP. The instructor will be happy to make the appropriate accommodations once you work out the details with DSP; also, feel free to communicate these needs to the instructor while waiting for DSP to finalize their response.
+
+
+Accessibility
+Students with documented disability are asked to contact the DSP office to arrange the necessary academic accommodations.
+
+
+ -->
+
+    <!-- /.container -->
+
+<!--     <footer class="py-3 bg-jilaozi">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Lingqi Yan 2018</p>
+      </div>
+    </footer>
+ -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+
+  
+
+
+</div><audio controls="controls" style="display: none;"></audio></body><style type="text/css">#yddContainer{display:block;font-family:Microsoft YaHei;position:relative;width:100%;height:100%;top:-4px;left:-4px;font-size:12px;border:1px solid}#yddTop{display:block;height:22px}#yddTopBorderlr{display:block;position:static;height:17px;padding:2px 28px;line-height:17px;font-size:12px;color:#5079bb;font-weight:bold;border-style:none solid;border-width:1px}#yddTopBorderlr .ydd-sp{position:absolute;top:2px;height:0;overflow:hidden}.ydd-icon{left:5px;width:17px;padding:0px 0px 0px 0px;padding-top:17px;background-position:-16px -44px}.ydd-close{right:5px;width:16px;padding-top:16px;background-position:left -44px}#yddKeyTitle{float:left;text-decoration:none}#yddMiddle{display:block;margin-bottom:10px}.ydd-tabs{display:block;margin:5px 0;padding:0 5px;height:18px;border-bottom:1px solid}.ydd-tab{display:block;float:left;height:18px;margin:0 5px -1px 0;padding:0 4px;line-height:18px;border:1px solid;border-bottom:none}.ydd-trans-container{display:block;line-height:160%}.ydd-trans-container a{text-decoration:none;}#yddBottom{position:absolute;bottom:0;left:0;width:100%;height:22px;line-height:22px;overflow:hidden;background-position:left -22px}.ydd-padding010{padding:0 10px}#yddWrapper{color:#252525;z-index:10001;background:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);}#yddContainer{background:#fff;border-color:#4b7598}#yddTopBorderlr{border-color:#f0f8fc}#yddWrapper .ydd-sp{background-image:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)}#yddWrapper a,#yddWrapper a:hover,#yddWrapper a:visited{color:#50799b}#yddWrapper .ydd-tabs{color:#959595}.ydd-tabs,.ydd-tab{background:#fff;border-color:#d5e7f3}#yddBottom{color:#363636}#yddWrapper{min-width:250px;max-width:400px;}</style></html>
+    
+    此主页css框架参考<a href="https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html">GAMES101</a>，非常感谢闫令琪老师提供的课程主页框架。
