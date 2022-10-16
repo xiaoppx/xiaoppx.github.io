@@ -1,4 +1,4 @@
-/* Researchs List */
+/* Researches List */
 img.paper-img {
   margin: 0 0 20px 30px;
   height: 180px;
@@ -15,7 +15,7 @@ img.paper-img {
   border-radius: 0 8px 8px 0;
   border-left: none;
 }
-.researchs-label {
+.researches-label {
   font-size: 19px;
   font-weight: 700;
   margin: 0 0 10px 30px;
@@ -52,4 +52,5 @@ img.paper-img {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
 }
